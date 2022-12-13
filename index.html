@@ -1,0 +1,56 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a href="" id="link" download="selfie.png"></a>
+        <h1>Voice Selfie App 
+        <img id="selfie_img" src="selfieee.png">
+        </h1>
+        <hr>
+        <h4 style="color:snow;">Press allow when the popup comes and take your best selfie</h4>
+        
+        <div class="form-group">
+            <h3>Say "take my selfie"</h3>
+            <label>Your voice output : </label>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div>
+        <button class="btn btn-primary" onclick="Start()">Speak and take pic</button>
+        <p style="color:cyan;">Press the Start button</p>
+        <div id="camera"></div>
+        <label>Your webcam : </label>
+
+
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+        <div id="result"></div>
+
+       
+        
+      
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+
+    <br>
+    <br>
+    <center><h3 id="information_text">The button below takes you to the Information page about how this app will be used in
+        phones. If you have any queries fill out the form on the next page.
+    </h3></center>
+    <center><button id="infobutton" onclick="newpage()">Information</button></center>
+    <h3 id="end">App made by Advik Das</h3>
+</body>
+</html>

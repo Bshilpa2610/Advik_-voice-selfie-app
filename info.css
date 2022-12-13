@@ -1,0 +1,12 @@
+body {
+    color: blanchedalmond;
+    background-color: darkorange;
+    text-align: center;
+}
+
+#back {
+    background-color: cornflowerblue;
+    color: rebeccapurple;
+    border-style: groove;
+    border-width: 10px;
+}
